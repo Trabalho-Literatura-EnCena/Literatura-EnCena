@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Página de teste para demonstrar a publicação de um site estático no GitHub Pages."
+    />
+    <title>Entre páginas e palavras</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#inicio" aria-label="Voltar ao início">
+          <span class="brand-mark" aria-hidden="true">EP</span>
+          <span>Entre páginas</span>
+        </a>
+
+        <p class="header-note">exemplo de portal · 2026</p>
+      </div>
+    </header>
+
+    <main id="inicio">
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Página de teste <span aria-hidden="true">/</span> GitHub Pages</p>
+          <h1 id="hero-title">Um lugar para reunir histórias.</h1>
+          <p class="hero-text">
+            Este é um exemplo simples de página principal para um trabalho de literatura.
+            Mais tarde, ela poderá direcionar os visitantes para os sites criados por cada grupo.
+          </p>
+          <a class="text-link" href="#projetos">Conhecer os projetos <span aria-hidden="true">↓</span></a>
+        </div>
+
+        <div class="hero-card" aria-label="Resumo da página">
+          <span class="hero-card-label">nota de leitura</span>
+          <p>“Toda página pode ser o começo de uma conversa.”</p>
+          <span class="hero-card-line" aria-hidden="true"></span>
+        </div>
+      </section>
+
+      <section class="projects section-shell" id="projetos" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Mapa de grupos</p>
+            <h2 id="projects-title">Projetos em destaque</h2>
+          </div>
+          <p class="section-intro">
+            Os cartões abaixo são apenas representações. Cada botão poderá receber o link do site
+            correspondente.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <a class="project-card project-card--orange" href="#">
+            <span class="project-number">01</span>
+            <span class="project-content">
+              <span class="project-label">Grupo A</span>
+              <strong>Palavras em movimento</strong>
+              <span class="project-action">Visitar projeto <span aria-hidden="true">↗</span></span>
+            </span>
+          </a>
+
+          <a class="project-card project-card--lilac" href="#">
+            <span class="project-number">02</span>
+            <span class="project-content">
+              <span class="project-label">Grupo B</span>
+              <strong>Vozes da página</strong>
+              <span class="project-action">Visitar projeto <span aria-hidden="true">↗</span></span>
+            </span>
+          </a>
+
+          <a class="project-card project-card--green" href="#">
+            <span class="project-number">03</span>
+            <span class="project-content">
+              <span class="project-label">Grupo C</span>
+              <strong>Entre versos</strong>
+              <span class="project-action">Visitar projeto <span aria-hidden="true">↗</span></span>
+            </span>
+          </a>
+
+          <a class="project-card project-card--yellow" href="#">
+            <span class="project-number">04</span>
+            <span class="project-content">
+              <span class="project-label">Grupo D</span>
+              <strong>Leituras possíveis</strong>
+              <span class="project-action">Visitar projeto <span aria-hidden="true">↗</span></span>
+            </span>
+          </a>
+        </div>
+      </section>
+
+      <section class="replacement-note section-shell" aria-labelledby="note-title">
+        <div class="note-symbol" aria-hidden="true">→</div>
+        <div>
+          <p class="eyebrow">Quando os sites estiverem prontos</p>
+          <h2 id="note-title">Os links serão substituídos.</h2>
+          <p>
+            Por enquanto, os botões usam <code>#</code> como placeholder. Depois da publicação de
+            cada grupo, basta trocar esse símbolo pelo endereço real do GitHub Pages.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-shell footer-inner">
+        <span>Exemplo didático de site estático</span>
+        <span>HTML + CSS</span>
+      </div>
+    </footer>
+  </body>
+</html>
