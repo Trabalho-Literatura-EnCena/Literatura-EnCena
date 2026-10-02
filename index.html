@@ -5,112 +5,325 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Página de teste para demonstrar a publicação de um site estático no GitHub Pages."
+      content="Portal dos hubs literários do projeto Literatura EnCena 2026, da turma 3º DS."
     />
-    <title>Entre páginas e palavras</title>
+    <title>Literatura EnCena 2026</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <header class="site-header">
       <div class="header-inner">
-        <a class="brand" href="#inicio" aria-label="Voltar ao início">
-          <span class="brand-mark" aria-hidden="true">EP</span>
-          <span>Entre páginas</span>
+        <a class="brand" href="#inicio" aria-label="Voltar ao início do portal">
+          <span class="brand-mark" aria-hidden="true">LE</span>
+          <span>Literatura EnCena</span>
         </a>
 
-        <p class="header-note">exemplo de portal · 2026</p>
+        <p class="header-note">3º DS · GET-HUB LITERÁRIO</p>
       </div>
     </header>
 
     <main id="inicio">
       <section class="hero section-shell" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow">Página de teste <span aria-hidden="true">/</span> GitHub Pages</p>
-          <h1 id="hero-title">Um lugar para reunir histórias.</h1>
+          <p class="eyebrow">Literatura EnCena 2026 <span aria-hidden="true">/</span> acervo da turma</p>
+          <h1 id="hero-title">O Brasil contado livro a livro.</h1>
           <p class="hero-text">
-            Este é um exemplo simples de página principal para um trabalho de literatura.
-            Mais tarde, ela poderá direcionar os visitantes para os sites criados por cada grupo.
+            Oito grupos apresentam suas leituras de obras marcantes da literatura brasileira, com
+            pesquisa, análise crítica e atividades interativas.
           </p>
-          <a class="text-link" href="#projetos">Conhecer os projetos <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#grupos">
+            Explorar os oito grupos <span aria-hidden="true">↓</span>
+          </a>
         </div>
 
-        <div class="hero-card" aria-label="Resumo da página">
-          <span class="hero-card-label">nota de leitura</span>
-          <p>“Toda página pode ser o começo de uma conversa.”</p>
+        <div class="hero-card" aria-label="Resumo do projeto">
+          <span class="hero-card-label">acervo literário · 3º DS</span>
+          <div class="hero-stat">
+            <strong>08</strong>
+            <span>grupos<br />em cena</span>
+          </div>
+          <p>Oito leituras. Muitas maneiras de contar o Brasil.</p>
           <span class="hero-card-line" aria-hidden="true"></span>
         </div>
       </section>
 
-      <section class="projects section-shell" id="projetos" aria-labelledby="projects-title">
+      <section class="projects section-shell" id="grupos" aria-labelledby="projects-title">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">Mapa de grupos</p>
-            <h2 id="projects-title">Projetos em destaque</h2>
+            <p class="eyebrow">Mapa dos hubs</p>
+            <h2 id="projects-title">Escolha um grupo para começar</h2>
           </div>
           <p class="section-intro">
-            Os cartões abaixo são apenas representações. Cada botão poderá receber o link do site
-            correspondente.
+            Cada cartão identifica a obra, o autor e os integrantes, acompanhado de uma ilustração
+            editorial criada para este portal.
           </p>
         </div>
 
         <div class="project-grid">
-          <a class="project-card project-card--orange" href="#">
-            <span class="project-number">01</span>
+          <button
+            class="project-card project-card--orange"
+            type="button"
+            data-group-trigger
+            data-group-id="g1"
+            aria-haspopup="dialog"
+            aria-controls="group-modal"
+          >
+            <span class="project-number">G1</span>
             <span class="project-content">
-              <span class="project-label">Grupo A</span>
-              <strong>Palavras em movimento</strong>
-              <span class="project-action">Visitar projeto <span aria-hidden="true">↗</span></span>
+              <strong class="project-work">Memórias Póstumas de Brás Cubas</strong>
+              <span class="project-author">Machado de Assis</span>
+              <span class="project-members">Felipe K. · Luiz Diego · Vitor C.</span>
+              <span class="project-action">Ver prévia <span aria-hidden="true">↗</span></span>
             </span>
+            <img
+              class="project-cover"
+              src="assets/capas/g1-bras-cubas.webp"
+              alt="Ilustração editorial de um gabinete carioca do século XIX, em referência à obra"
+              width="640"
+              height="960"
+              loading="lazy"
+            />
+          </button>
+
+          <button
+            class="project-card project-card--lilac"
+            type="button"
+            data-group-trigger
+            data-group-id="g2"
+            aria-haspopup="dialog"
+            aria-controls="group-modal"
+          >
+            <span class="project-number">G2</span>
+            <span class="project-content">
+              <strong class="project-work">Memórias Póstumas de Brás Cubas</strong>
+              <span class="project-author">Machado de Assis</span>
+              <span class="project-members">Heitor · Vinicios · Lucas · Gabriel F. · Eron</span>
+              <span class="project-action">Ver prévia <span aria-hidden="true">↗</span></span>
+            </span>
+            <img
+              class="project-cover"
+              src="assets/capas/g2-bras-cubas.webp"
+              alt="Ilustração editorial de um cemitério antigo no Rio de Janeiro, em referência à obra"
+              width="640"
+              height="960"
+              loading="lazy"
+            />
+          </button>
+
+          <a
+            class="project-card project-card--green"
+            href="grupos/g3.html"
+            aria-label="Abrir a página interna do Grupo 3, A Paixão Segundo G. H."
+          >
+            <span class="project-number">G3</span>
+            <span class="project-content">
+              <strong class="project-work">A Paixão Segundo G. H.</strong>
+              <span class="project-author">Clarice Lispector</span>
+              <span class="project-members">Luíza · Karen · Eduarda · Sophia</span>
+              <span class="project-action">Abrir hub interno <span aria-hidden="true">↗</span></span>
+            </span>
+            <img
+              class="project-cover"
+              src="assets/capas/g3-paixao-gh.webp"
+              alt="Ilustração editorial de uma mulher diante da porta de um quarto, em referência à obra"
+              width="640"
+              height="960"
+              loading="lazy"
+            />
           </a>
 
-          <a class="project-card project-card--lilac" href="#">
-            <span class="project-number">02</span>
+          <button
+            class="project-card project-card--yellow"
+            type="button"
+            data-group-trigger
+            data-group-id="g4"
+            aria-haspopup="dialog"
+            aria-controls="group-modal"
+          >
+            <span class="project-number">G4</span>
             <span class="project-content">
-              <span class="project-label">Grupo B</span>
-              <strong>Vozes da página</strong>
-              <span class="project-action">Visitar projeto <span aria-hidden="true">↗</span></span>
+              <strong class="project-work">O Quinze</strong>
+              <span class="project-author">Rachel de Queiroz</span>
+              <span class="project-members">Eduardo S. · João Eliel · Davi · Edu. M. · Gabriel Flores</span>
+              <span class="project-action">Ver prévia <span aria-hidden="true">↗</span></span>
             </span>
-          </a>
+            <img
+              class="project-cover"
+              src="assets/capas/g4-o-quinze.webp"
+              alt="Ilustração editorial de uma mulher e uma criança atravessando o sertão seco, em referência à obra"
+              width="640"
+              height="960"
+              loading="lazy"
+            />
+          </button>
 
-          <a class="project-card project-card--green" href="#">
-            <span class="project-number">03</span>
+          <button
+            class="project-card project-card--orange"
+            type="button"
+            data-group-trigger
+            data-group-id="g5"
+            aria-haspopup="dialog"
+            aria-controls="group-modal"
+          >
+            <span class="project-number">G5</span>
             <span class="project-content">
-              <span class="project-label">Grupo C</span>
-              <strong>Entre versos</strong>
-              <span class="project-action">Visitar projeto <span aria-hidden="true">↗</span></span>
+              <strong class="project-work">O Quinze</strong>
+              <span class="project-author">Rachel de Queiroz</span>
+              <span class="project-members">Vinícius F. · Augusto · Henrique · Pedro · Gabriel S. · Caio D.</span>
+              <span class="project-action">Ver prévia <span aria-hidden="true">↗</span></span>
             </span>
-          </a>
+            <img
+              class="project-cover"
+              src="assets/capas/g5-o-quinze.webp"
+              alt="Ilustração editorial de uma família diante da paisagem seca do sertão, em referência à obra"
+              width="640"
+              height="960"
+              loading="lazy"
+            />
+          </button>
 
-          <a class="project-card project-card--yellow" href="#">
-            <span class="project-number">04</span>
+          <button
+            class="project-card project-card--lilac"
+            type="button"
+            data-group-trigger
+            data-group-id="g6"
+            aria-haspopup="dialog"
+            aria-controls="group-modal"
+          >
+            <span class="project-number">G6</span>
             <span class="project-content">
-              <span class="project-label">Grupo D</span>
-              <strong>Leituras possíveis</strong>
-              <span class="project-action">Visitar projeto <span aria-hidden="true">↗</span></span>
+              <strong class="project-work">Clara dos Anjos</strong>
+              <span class="project-author">Lima Barreto</span>
+              <span class="project-members">Felipe Alapaki</span>
+              <span class="project-action">Ver prévia <span aria-hidden="true">↗</span></span>
             </span>
-          </a>
+            <img
+              class="project-cover"
+              src="assets/capas/g6-clara-dos-anjos.webp"
+              alt="Ilustração editorial de uma jovem no subúrbio carioca do início do século XX, em referência à obra"
+              width="640"
+              height="960"
+              loading="lazy"
+            />
+          </button>
+
+          <button
+            class="project-card project-card--green"
+            type="button"
+            data-group-trigger
+            data-group-id="g7"
+            aria-haspopup="dialog"
+            aria-controls="group-modal"
+          >
+            <span class="project-number">G7</span>
+            <span class="project-content">
+              <strong class="project-work">Clara dos Anjos</strong>
+              <span class="project-author">Lima Barreto</span>
+              <span class="project-members">Daniel · Caio N. · Arthut T. · Jean · Theodoro · Rafael</span>
+              <span class="project-action">Ver prévia <span aria-hidden="true">↗</span></span>
+            </span>
+            <img
+              class="project-cover"
+              src="assets/capas/g7-clara-dos-anjos.webp"
+              alt="Ilustração editorial de uma jovem caminhando junto a uma linha de bonde no Rio, em referência à obra"
+              width="640"
+              height="960"
+              loading="lazy"
+            />
+          </button>
+
+          <button
+            class="project-card project-card--yellow"
+            type="button"
+            data-group-trigger
+            data-group-id="g8"
+            aria-haspopup="dialog"
+            aria-controls="group-modal"
+          >
+            <span class="project-number">G8</span>
+            <span class="project-content">
+              <strong class="project-work">Vidas Secas</strong>
+              <span class="project-author">Graciliano Ramos</span>
+              <span class="project-members">Rian · Vitor A. · Luiz Guilherme · Vitor M.</span>
+              <span class="project-action">Ver prévia <span aria-hidden="true">↗</span></span>
+            </span>
+            <img
+              class="project-cover"
+              src="assets/capas/g8-vidas-secas.webp"
+              alt="Ilustração editorial de uma família e um cão atravessando o sertão, em referência à obra"
+              width="640"
+              height="960"
+              loading="lazy"
+            />
+          </button>
         </div>
       </section>
 
       <section class="replacement-note section-shell" aria-labelledby="note-title">
         <div class="note-symbol" aria-hidden="true">→</div>
         <div>
-          <p class="eyebrow">Quando os sites estiverem prontos</p>
-          <h2 id="note-title">Os links serão substituídos.</h2>
+          <p class="eyebrow">Um portal, oito caminhos</p>
+          <h2 id="note-title">Cada grupo desenvolve o próprio hub.</h2>
           <p>
-            Por enquanto, os botões usam <code>#</code> como placeholder. Depois da publicação de
-            cada grupo, basta trocar esse símbolo pelo endereço real do GitHub Pages.
+            O portal organiza a navegação. O conteúdo completo, as imagens, a análise da obra e o
+            quiz pertencem ao site de cada grupo e serão conectados quando estiverem publicados.
           </p>
         </div>
       </section>
     </main>
 
+    <div class="modal" id="group-modal" hidden>
+      <div class="modal-backdrop" data-modal-close></div>
+      <div
+        class="modal-dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+        aria-describedby="modal-summary"
+        tabindex="-1"
+      >
+        <button class="modal-close" type="button" data-modal-close aria-label="Fechar prévia">×</button>
+        <p class="eyebrow" id="modal-group">Grupo</p>
+        <h2 id="modal-title">Título da obra</h2>
+        <p class="modal-author" id="modal-author">Autor</p>
+
+        <div class="modal-info">
+          <div>
+            <span class="modal-label">Prévia</span>
+            <p id="modal-summary">Resumo curto do trabalho.</p>
+          </div>
+          <div>
+            <span class="modal-label">Integrantes</span>
+            <p id="modal-members">Integrantes do grupo.</p>
+          </div>
+          <div>
+            <span class="modal-label">Situação</span>
+            <p id="modal-status">Site externo ainda não informado.</p>
+          </div>
+        </div>
+
+        <div class="modal-actions">
+          <a
+            class="button button--primary"
+            id="modal-visit"
+            href="#"
+            aria-disabled="true"
+          >
+            Visitar site do grupo
+          </a>
+          <button class="button button--quiet" type="button" data-modal-close>Fechar prévia</button>
+        </div>
+      </div>
+    </div>
+
     <footer class="site-footer">
       <div class="section-shell footer-inner">
-        <span>Exemplo didático de site estático</span>
-        <span>HTML + CSS</span>
+        <span>Literatura EnCena 2026 · 3º DS</span>
+        <span>Portal de hubs literários</span>
       </div>
     </footer>
+
+    <script src="script.js" defer></script>
   </body>
 </html>
