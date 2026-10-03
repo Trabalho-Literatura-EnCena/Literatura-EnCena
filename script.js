@@ -4,7 +4,7 @@ const groupData = {
     work: "Memórias Póstumas de Brás Cubas",
     author: "Machado de Assis",
     members: "Felipe K., Luiz Diego e Vitor C.",
-    summary: "Resumo curto da obra e análise do grupo serão inseridos nesta prévia.",
+    summary: "Narrado por um autor que já morreu, o romance usa ironia para revelar vaidade, privilégios e contradições da elite brasileira.",
     siteUrl: "https://mrdiegl2824.github.io/Site_Linguagens/",
   },
   g2: {
@@ -12,7 +12,7 @@ const groupData = {
     work: "Memórias Póstumas de Brás Cubas",
     author: "Machado de Assis",
     members: "Heitor, Vinicios, Lucas, Gabriel F. e Eron.",
-    summary: "Resumo curto da obra e análise do grupo serão inseridos nesta prévia.",
+    summary: "Narrado por um autor que já morreu, o romance usa ironia para revelar vaidade, privilégios e contradições da elite brasileira.",
     siteUrl: "https://vfzim7380.github.io/Bras-Cubas/",
   },
   g4: {
@@ -20,7 +20,7 @@ const groupData = {
     work: "O Quinze",
     author: "Rachel de Queiroz",
     members: "Eduardo S., João Eliel, Davi, Edu. M. e Gabriel Flores.",
-    summary: "Resumo curto da obra e análise do grupo serão inseridos nesta prévia.",
+    summary: "Na seca de 1915, os caminhos de Conceição e da família de Chico Bento mostram a fome, a migração e as desigualdades no sertão.",
     siteUrl: "#",
   },
   g5: {
@@ -28,7 +28,7 @@ const groupData = {
     work: "O Quinze",
     author: "Rachel de Queiroz",
     members: "Vinícius F., Augusto, Henrique, Pedro, Gabriel S. e Caio D.",
-    summary: "Resumo curto da obra e análise do grupo serão inseridos nesta prévia.",
+    summary: "Na seca de 1915, os caminhos de Conceição e da família de Chico Bento mostram a fome, a migração e as desigualdades no sertão.",
     siteUrl: "#",
   },
   g6: {
@@ -36,7 +36,7 @@ const groupData = {
     work: "Clara dos Anjos",
     author: "Lima Barreto",
     members: "Felipe Alapaki.",
-    summary: "Resumo curto da obra e análise do grupo serão inseridos nesta prévia.",
+    summary: "A trajetória de Clara, jovem negra seduzida e abandonada por Cassi Jones, expõe racismo, desigualdade e opressão de gênero.",
     siteUrl: "https://trabalho-literatura-encena.github.io/G6-Felipe-Alapaki/",
   },
   g7: {
@@ -44,7 +44,7 @@ const groupData = {
     work: "Clara dos Anjos",
     author: "Lima Barreto",
     members: "Daniel, Caio N., Arthut T., Jean, Theodoro e Rafael.",
-    summary: "Resumo curto da obra e análise do grupo serão inseridos nesta prévia.",
+    summary: "A trajetória de Clara, jovem negra seduzida e abandonada por Cassi Jones, expõe racismo, desigualdade e opressão de gênero.",
     siteUrl: "https://trabalho-literatura-encena.github.io/G7---Clara-dos-Anjos/",
   },
   g8: {
@@ -52,7 +52,7 @@ const groupData = {
     work: "Vidas Secas",
     author: "Graciliano Ramos",
     members: "Rian, Vitor A., Luiz Guilherme e Vitor M.",
-    summary: "Resumo curto da obra e análise do grupo serão inseridos nesta prévia.",
+    summary: "A caminhada de Fabiano, Sinhá Vitória, os filhos e Baleia pela caatinga revela a luta de uma família contra seca, fome e miséria.",
     siteUrl: "#",
   },
 };
