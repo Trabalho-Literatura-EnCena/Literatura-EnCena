@@ -5,7 +5,7 @@ const groupData = {
     author: "Machado de Assis",
     members: "Felipe K., Luiz Diego e Vitor C.",
     summary: "Resumo curto da obra e análise do grupo serão inseridos nesta prévia.",
-    siteUrl: "#",
+    siteUrl: "https://mrdiegl2824.github.io/Site_Linguagens/",
   },
   g2: {
     group: "Grupo 2",
@@ -13,7 +13,7 @@ const groupData = {
     author: "Machado de Assis",
     members: "Heitor, Vinicios, Lucas, Gabriel F. e Eron.",
     summary: "Resumo curto da obra e análise do grupo serão inseridos nesta prévia.",
-    siteUrl: "#",
+    siteUrl: "https://vfzim7380.github.io/Bras-Cubas/",
   },
   g4: {
     group: "Grupo 4",
@@ -37,7 +37,7 @@ const groupData = {
     author: "Lima Barreto",
     members: "Felipe Alapaki.",
     summary: "Resumo curto da obra e análise do grupo serão inseridos nesta prévia.",
-    siteUrl: "#",
+    siteUrl: "https://trabalho-literatura-encena.github.io/G6-Felipe-Alapaki/",
   },
   g7: {
     group: "Grupo 7",
@@ -45,7 +45,7 @@ const groupData = {
     author: "Lima Barreto",
     members: "Daniel, Caio N., Arthut T., Jean, Theodoro e Rafael.",
     summary: "Resumo curto da obra e análise do grupo serão inseridos nesta prévia.",
-    siteUrl: "#",
+    siteUrl: "https://trabalho-literatura-encena.github.io/G7---Clara-dos-Anjos/",
   },
   g8: {
     group: "Grupo 8",
