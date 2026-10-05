@@ -19,7 +19,7 @@ const groupData = {
     group: "Grupo 4",
     work: "O Quinze",
     author: "Rachel de Queiroz",
-    members: "Eduardo S., João Eliel, Davi, Edu. M. e Gabriel Flores.",
+    members: "Eduardo S., João Elyel, Davi, Edu. M. e Gabriel Flores.",
     summary: "O hub acompanha as histórias de Conceição e Vicente e da família de Chico Bento para discutir a seca, a migração e suas consequências sociais.",
     siteUrl: "https://edusasaki.github.io/O-Quinze/",
   },
@@ -53,7 +53,7 @@ const groupData = {
     author: "Graciliano Ramos",
     members: "Rian, Vitor A., Luiz Guilherme e Vitor M.",
     summary: "A caminhada de Fabiano, Sinhá Vitória, os filhos e Baleia pela caatinga revela a luta de uma família contra seca, fome e miséria.",
-    siteUrl: "#",
+    siteUrl: "https://luizguilherme2701.github.io/Dougras/",
   },
 };
 
