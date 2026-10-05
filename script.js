@@ -21,7 +21,7 @@ const groupData = {
     author: "Rachel de Queiroz",
     members: "Eduardo S., João Eliel, Davi, Edu. M. e Gabriel Flores.",
     summary: "Na seca de 1915, os caminhos de Conceição e da família de Chico Bento mostram a fome, a migração e as desigualdades no sertão.",
-    siteUrl: "#",
+    siteUrl: "https://edusasaki.github.io/O-Quinze/",
   },
   g5: {
     group: "Grupo 5",
@@ -29,7 +29,7 @@ const groupData = {
     author: "Rachel de Queiroz",
     members: "Vinícius F., Augusto, Henrique, Pedro, Gabriel S. e Caio D.",
     summary: "Na seca de 1915, os caminhos de Conceição e da família de Chico Bento mostram a fome, a migração e as desigualdades no sertão.",
-    siteUrl: "#",
+    siteUrl: "https://trabalho-literatura-encena.github.io/G5---O-quinze/",
   },
   g6: {
     group: "Grupo 6",
