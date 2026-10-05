@@ -20,7 +20,7 @@ const groupData = {
     work: "O Quinze",
     author: "Rachel de Queiroz",
     members: "Eduardo S., João Eliel, Davi, Edu. M. e Gabriel Flores.",
-    summary: "Na seca de 1915, os caminhos de Conceição e da família de Chico Bento mostram a fome, a migração e as desigualdades no sertão.",
+    summary: "O hub acompanha as histórias de Conceição e Vicente e da família de Chico Bento para discutir a seca, a migração e suas consequências sociais.",
     siteUrl: "https://edusasaki.github.io/O-Quinze/",
   },
   g5: {
@@ -28,7 +28,7 @@ const groupData = {
     work: "O Quinze",
     author: "Rachel de Queiroz",
     members: "Vinícius F., Augusto, Henrique, Pedro, Gabriel S. e Caio D.",
-    summary: "Na seca de 1915, os caminhos de Conceição e da família de Chico Bento mostram a fome, a migração e as desigualdades no sertão.",
+    summary: "O grupo destaca como a seca de 1915 agrava a desigualdade e ameaça a sobrevivência no sertão, relacionando esses conflitos a questões atuais.",
     siteUrl: "https://trabalho-literatura-encena.github.io/G5---O-quinze/",
   },
   g6: {
